@@ -134,11 +134,9 @@ Evaluated on the test set (1,311 samples), the full HLGA framework achieves:
 - **Ablation Insights:** The DFI's two-stage bottleneck attention is critical, minimizing misclassifications for complex cases like gliomas.  
 - **Limitations:** The placeholder model is less effective, and class imbalance (e.g., fewer glioma samples in the test set) may affect performance.
 
-## License
-This project is licensed under the MIT License (see `LICENSE`). The full code release post-publication will also be under this license.
 
 ## Contact
-For questions or collaboration inquiries, contact **Ahmad Muhammad** at <a href="mailto:ahmadjameel7171@gmail.com">ahmadjameel7171@gmail.com</a> or **Muhammad Yaqub** at <a href="mailto:myaqub@hnu.edu.cn">myaqub@hnu.edu.cn</a>.
+For questions or collaboration inquiries, contact **Ahmad Muhammad** at <a href="mailto:ahmadjameel7171@gmail.com">ahmadjameel7171@gmail.com</a>.
 
 ## Acknowledgments
 - The Kaggle Brain Tumor MRI Dataset providers.  
