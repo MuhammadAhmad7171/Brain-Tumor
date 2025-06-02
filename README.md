@@ -97,15 +97,7 @@ pip install torch torchvision numpy opencv-python scikit-learn matplotlib
 - `README.md`: This file.
 
 ### Results
-<p align="center">
-  <img src="figures/hybrid_confusion.png?raw=true" alt="Confusion Matrix" width="70%">
-</p>
-<p align="center"><i>Caption: Test dataset confusion matrix.</i></p>
 
-<p align="center">
-  <img src="figures/hybrid_plot.png?raw=true" alt="Training Plot" width="100%">
-</p>
-<p align="center"><i>Caption: Training and validation accuracy/loss curves.</i></p>
 
 #### Model Performance
 Evaluated on the test set (1,311 samples), the full HLGA framework achieves:  
