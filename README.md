@@ -7,7 +7,7 @@ This study introduces the Hybrid Local-Global Attention (HLGA) framework, enhanc
 As the paper is under review, the full implementation (`HLGAModel`, `DynamicFusion`) is withheld to protect intellectual property. A placeholder model is provided in `src/model.py`.
 
 <p align="center">
-  <img src="Figures/Brain tumor dataset.png?raw=true" alt="Model Architecture" width="100%">
+  <img src="Figures/Model Architecture.png?raw=true" alt="Model Architecture" width="100%">
 </p>
 <p align="center"><i>Caption: Placeholder schematic of the HLGA framework. Full details will be released upon publication.</i></p>
 
@@ -25,7 +25,7 @@ The dataset is sourced from:
 - **Access:** Download from the Kaggle source and place in `data/`, or update `train_dir` and `test_dir` in `src/preprocess.py` to your dataset path.
 
 <p align="center">
-  <img src="Figures/Model Architecture.png?raw=true" alt="Dataset Sample Image" width="100%">
+  <img src="Figures/Brain tumor dataset.png?raw=true" alt="Dataset Sample Image" width="100%">
 </p>
 <p align="center"><i>Caption: Sample MRI scan from the brain tumor dataset.</i></p>
 
