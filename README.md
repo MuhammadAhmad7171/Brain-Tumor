@@ -120,7 +120,6 @@ Evaluated on the test set (1,311 samples), the full HLGA framework achieves:
 - **Preprocessing Benefits:** CLAHE, sharpening, and augmentations (rotation, flipping, color jitter) enhance feature extraction, reducing errors.  
 - **Generalizability:** Validation on the Crystal Clean MRI dataset confirms robust performance across diverse imaging conditions.  
 - **Ablation Insights:** The DFI's two-stage bottleneck attention is critical, minimizing misclassifications for complex cases like gliomas.  
-- **Limitations:** The placeholder model is less effective, and class imbalance (e.g., fewer glioma samples in the test set) may affect performance.
 
 
 ## Contact
