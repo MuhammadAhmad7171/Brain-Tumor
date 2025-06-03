@@ -7,7 +7,7 @@ This study introduces the Hybrid Local-Global Attention (HLGA) framework, enhanc
 As the paper is under review, the full implementation (`HLGAModel`, `DynamicFusion`) is withheld to protect intellectual property. A placeholder model is provided in `src/model.py`.
 
 <p align="center">
-  <img src="figures/model_architecture.png?raw=true" alt="Model Architecture" width="100%">
+  <img src="figures/Model_Architecture.png?raw=true" alt="Model Architecture" width="100%">
 </p>
 <p align="center"><i>Caption: Placeholder schematic of the HLGA framework. Full details will be released upon publication.</i></p>
 
@@ -23,6 +23,11 @@ The dataset is sourced from:
 - **Size:** 7,022 T1-weighted MRI scans.  
 - **Structure:** Organized into `train/` (5,141 images post-split), `validation/` (571 images), and `test/` (1,311 images) directories, with subfolders for each class.  
 - **Access:** Download from the Kaggle source and place in `data/`, or update `train_dir` and `test_dir` in `src/preprocess.py` to your dataset path.
+
+<p align="center">
+  <img src="figures/Brain_tumor_dataset.png?raw=true" alt="Dataset Sample Image" width="100%">
+</p>
+<p align="center"><i>Caption: Sample MRI scan from the brain tumor dataset.</i></p>
 
 ### Run the Pipeline
 #### Prepare the Environment:
@@ -83,10 +88,10 @@ pip install torch torchvision numpy scikit-learn matplotlib
   - `visualize.py`: Plotting training/validation metrics and confusion matrix.  
   - `main.py`: Main script to orchestrate the pipeline.  
 - `figures/`:  
-  - `model_architecture.png`: Placeholder model architecture diagram.  
-  - `dataset_sample.png`: Sample MRI scan from the dataset.  
+  - `Model_Architecture.png`: Placeholder model architecture diagram.  
+  - `Brain_tumor_dataset.png`: Sample MRI scan from the dataset.  
   - `confusion_matrix.png`: Confusion matrix for test predictions.  
-  - `training_plot.png`: Training/validation accuracy and loss curves.  
+  - `training_plot.png`: Training validation accuracy and loss curves.  
 - `data/`: Placeholder for the dataset (not included; see Dataset section).  
 - `requirements.txt`: Python dependencies.  
 - `LICENSE`: MIT License (to be updated post-publication).  
@@ -131,6 +136,6 @@ For questions or collaboration inquiries, contact **Ahmad Muhammad** at <a href=
 ## Note
 The model architecture (`HLGAModel`, `DynamicFusion`) and trained weights are withheld until the paper is published to protect novel contributions. The provided scripts under `src/` include a placeholder model to demonstrate the pipeline. Post-publication, the repository will be updated with:  
 - Full model implementation in `src/model.py`.  
-- Detailed architecture diagram (`figures/model_architecture.png`).  
+- Detailed architecture diagram (`figures/Model_Architecture.png`).  
 - Trained weights (if permitted by the dataset license).  
 For reviewer access to the full code or weights, contact <a href="mailto:ahmadjameel7171@gmail.com">ahmadjameel7171@gmail.com</a>. Updates will be announced post-publication.
