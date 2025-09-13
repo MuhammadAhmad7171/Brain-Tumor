@@ -1,4 +1,4 @@
-# Hybrid Local-Global Attention (HLGA) Framework for Brain Tumor Classification
+# Attention-Enhanced Hybrid Deep Learning Framework for Accurate Brain Tumor MRI Analysis
 
 ### Abstract
 This study introduces the Hybrid Local-Global Attention (HLGA) framework, enhanced by a Dynamic Feature Integrator (DFI), for precise brain tumor classification using T1-weighted MRI scans from a Kaggle dataset (7,022 images). The model integrates ResNet50-based local feature extraction and Vision Transformer-based global attention, achieving 99.83% accuracy (precision: 99.93%, recall: 99.86%, F1-score: 99.89%), surpassing the prior benchmark of 99.22%. Ablation studies confirm the DFI's two-stage bottleneck attention reduces misclassifications to two cases. External validation on the Crystal Clean MRI dataset demonstrates robust generalizability, supporting early and accurate brain tumor diagnosis in neuro-oncology.
