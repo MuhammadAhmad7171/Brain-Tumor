@@ -8,7 +8,7 @@ As the paper is under review, the full implementation (Adaptive Attention Fusion
 <p align="center">
   <img src="Figures/Model Architecture.png?raw=true" alt="Model Architecture" width="100%">
 </p>
-<p align="center"><i>Caption: Placeholder schematic of the HLGA framework. Full details will be released upon publication.</i></p>
+<p align="center"><i>Caption: Overall working flow. Preprocessing and augmentation feed a hybrid CNN–ViT backbone; features are aligned (to 512-D), fused via attention, and classified.</i></p>
 
 ## Usage
 The pipeline is modularized into multiple scripts under `src/` for preprocessing, model definition, training, evaluation, and visualization. The entry point is `src/main.py`.
