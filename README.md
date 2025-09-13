@@ -24,7 +24,7 @@ The dataset is sourced from:
 - **Access:** Download from the Kaggle source and place in `data/`, or update `train_dir` and `test_dir` in `src/preprocess.py` to your dataset path.
 
 <p align="center">
-  <img src="Figures/Brain tumor dataset.png?raw=true" alt="Dataset Sample Image" width="100%">
+  <img src="Figures/Brain tumor dataset1.png?raw=true" alt="Dataset Sample Image" width="100%">
 </p>
 <p align="center"><i>Caption: Sample MRI scan from the brain tumor dataset.</i></p>
 
